@@ -34,7 +34,7 @@
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/render-modifiers": "^2.0.0",
-    "@ember/test-helpers": "^2.5.0",
+    "@ember/test-helpers": "^2.9.6",
     "@embroider/test-setup": "^0.47.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
@@ -52,7 +52,7 @@
     "ember-export-application-global": "^2.0.1",
     "ember-load-initializers": "^2.1.2",
     "ember-maybe-import-regenerator": "^1.0.0",
-    "ember-qunit": "^5.1.5",
+    "ember-qunit": "^6.2.0",
     "ember-resolver": "^8.0.3",
     "ember-responsive": "^4.0.2",
     "ember-source": "~3.28.1",
@@ -92,5 +92,18 @@
   },
   "volta": {
     "node": "14.18.1"
+  },
+  "overrides": {
+    "@babel/runtime": "^7.26.10",
+    "ansi-html": "^0.0.9",
+    "tmp": "^0.2.4",
+    "find-yarn-workspace-root": "^2.0.0",
+    "clean-css-promise": {
+      "clean-css": "^4.1.11"
+    },
+    "release-it": {
+      "semver": "^7.5.2"
+    },
+    "sane": "^5.0.1"
   }
 }
